@@ -1,0 +1,27 @@
+
+.card-artwork {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 65%;
+  margin: 50px 0;
+  color: #FDF5EC ;
+  background-color: #242B38;
+  padding: 25px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}

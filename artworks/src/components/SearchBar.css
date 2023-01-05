@@ -1,0 +1,39 @@
+.search-bar form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input {
+    border: none;
+    width: 90%;
+    height: 100%;
+    background-color: #FDF5EC;
+    color:#242B38;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form div {
+    background-color: #242B38;
+    width: 100%;
+    height: 5vh;
+    margin: 15px;
+    padding: 15px 0px;
+    display: flex;
+    box-shadow: 5px 4px 8px #22252c86;
+}
+
+label {
+    margin: 20px;
+    color: #242B38;
+    font-weight: 600;
+    font-size: 25px;
+}

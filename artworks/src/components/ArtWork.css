@@ -1,0 +1,142 @@
+body {
+    overflow-x: hidden;
+    background-color: #E4F7FD;
+}
+
+.favourite {
+    width: 50px;
+} 
+img {
+    width:400px;
+    transition: transform .6s;
+    cursor: pointer;
+}
+
+a img:hover {
+    box-shadow: 5px 5px 8px #62616149;
+    transition: 0.8 ease-in;
+
+}
+
+img:hover {
+   transform: scale(1.05);
+}
+
+h2 {
+    color: #242B38;
+}
+
+.header {
+    background-color: #242B38;
+    color: #FDF5EC;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    width: 100%;
+}
+
+.navBar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FDF5EC;
+    border-bottom: 3px solid #242B38;
+    height: 5vh;
+}
+
+a {
+    text-decoration: none;
+    color: #242B38;
+    font-weight: 600;
+    width: 100%;
+    height: 100%;
+    padding-top: 5px;
+}
+
+.navBar a:visited {
+text-decoration: none;
+}
+
+.navBar a:hover {
+    background-color: #242B38;
+    color: #FDF5EC;
+    transition: 0.6s;
+}
+
+/* .search-bar form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+input {
+    border: none;
+    width: 90%;
+    height: 100%;
+    background-color: #FDF5EC;
+    color:#242B38;
+}
+
+form div {
+    background-color: #242B38;
+    width: 45%;
+    height: 5vh;
+    margin: 15px;
+    padding: 15px 0px;
+}
+
+label {
+    margin: 20px;
+    color: #242B38;
+    font-weight: 600;
+    font-size: 25px;
+} */
+
+
+.cards {
+  background-color: #242B38;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.wrapper {
+    width: 80%;
+    background-color: #E4F7FD;
+    height: auto;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.wrapper div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper div a {
+    width: 80%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+

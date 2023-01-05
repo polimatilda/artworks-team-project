@@ -1,0 +1,61 @@
+.favContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.favWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #242B38;
+    width: 80%;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #242B38;
+    background-color: #E4F7FD;
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+}
+
+.card img {
+    width:400px;
+    margin-bottom: 15px;
+}
+
+.card h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    width: 70%;
+}
+
+.no-faves {
+  text-align: center;
+}
+
+.navBar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FDF5EC;
+    border-bottom: 3px solid #242B38;
+    height: 5vh;
+}
+
+a {
+    text-align: center;
+    width: 80%;
+}
+
+.search-bar {
+    width: 60%;
+}
